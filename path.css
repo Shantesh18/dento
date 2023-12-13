@@ -1,0 +1,21 @@
+.path{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.path-address{
+    color: rgb(93, 93, 92);
+}
+
+.path-home a{
+   text-decoration: none;
+   color: black;
+}
+
+.path-home a:hover{
+    color: rgb(0, 145, 255);
+}

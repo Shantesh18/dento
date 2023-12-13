@@ -1,0 +1,76 @@
+.iframe-loaction{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.get-in-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.address-block{
+    width: 25%;
+    background-color: #57A9FB;
+    color: white;
+    padding: 32px 50px;
+}
+
+.address-block p{
+    margin: 10px 0px 20px 0px;
+}
+
+.get-in-block{
+    margin: 0;
+    padding: 0;
+    width: 53%;
+    font-size: 22px;
+}
+
+.get-in-block progress{
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.get-in-block h1{
+    font-size: 34px;
+}
+
+.get-in-block input{
+    width: 50%;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid rgb(203, 208, 246);
+}
+
+.get-in-block input::placeholder{
+    font-style: italic;
+    color: rgb(190, 190, 127);
+}
+
+.input-div{
+    display: flex;
+    column-gap: 20px;
+}
+
+.get-in-block textarea{
+    width: 100%;
+    margin: 33px 0px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 15px;
+    border: 1px solid rgb(203, 208, 246);
+}
+
+.get-in-block textarea::placeholder{
+    font-style: italic;
+    color: rgb(190, 190, 127);
+}

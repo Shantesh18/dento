@@ -1,0 +1,85 @@
+.our-dentiest{
+    margin: 70px 0px;
+    text-align: center;
+}
+.dentist-images{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.dentist-images>div{
+    background-color: #F4F4F4;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    row-gap: 35px;
+}
+.dentist-1{
+   
+    background-image: url('./9.png');
+    background-size: 100% 100%;
+}
+.dentist-2{
+   
+    background-image: url('./10.png');
+    background-size: 100% 100%;
+}
+.dentist-3{
+   
+    background-image: url('./11.png');
+    background-size: 100% 100%;
+}
+
+.dentist-name{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.85;
+    color: white;
+}
+
+.icon-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.icon-class{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: rgb(4, 155, 249);
+    border-radius: 50%;
+    padding: 12px;
+    text-align: center;
+    z-index: -1;
+}
+
+.dentist-1:hover .icon-class{
+   z-index: 1;
+}
+.dentist-2:hover .icon-class{
+    z-index: 1;
+ }
+
+ .dentist-3:hover .icon-class{
+    z-index: 1;
+ }
+ 
+.facebook-icon:hover{
+    background-color: rgb(0, 208, 255);
+    color: white;
+}
+
+.twitter-icon:hover{
+    background-color: rgb(0, 208, 255);
+    color: white;
+}
+
+.google-icon:hover{
+    background-color: rgb(0, 208, 255);
+    color: white;
+}
